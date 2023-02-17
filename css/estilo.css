@@ -1,0 +1,65 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+header{
+    background-color: rgb(135, 250, 196);
+    height: 100px;
+    width: 100%;
+    text-align:justify;
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+nav{
+    float: left;
+    background-color: antiquewhite;
+    border: solid;
+    width: 20%;
+    min-height:500px;
+    border: 20px solid gray;
+}
+#pokedex{
+    float: left;
+    background-color: gray;
+    width: 79.6%;
+    min-height: 500px;
+    border: gray solid;
+}
+aside{
+    float: right;
+    width: 17.34%;
+    min-height: 500px;
+    background: gray;
+    text-align:center;
+    border: 20px solid gray;
+}
+.clear{
+    clear: both;
+}
+footer{
+    background-color: darkgray;
+    text-align: center;
+    border: 20px solid;
+}
+.vaporeon{
+    background-color: rgb(135, 250, 196);
+    text-align: center;
+}
+.pikachu{
+    background-color: rgb(135, 250, 196);
+    text-align: center;
+}
+.charmander{
+    background-color: rgb(135, 250, 196);
+    text-align: center;
+}
+.cubone{
+    background-color: rgb(135, 250, 196);
+    text-align:center;
+}
+#imagen{
+    text-align: center;
+}
