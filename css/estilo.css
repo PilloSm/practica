@@ -1,6 +1,6 @@
 body{
     background-color: azure;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: let;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -9,19 +9,29 @@ header{
     background-color: rgb(135, 250, 196);
     height: 100px;
     width: 100%;
-    text-align:justify;
     text-align: center;
-    border-bottom: 3px solid gray;
+    border: 3px solid gray;
+    font-family: poke;
+    line-height: 100px;
+}
+@font-face {
+    font-family: poke;
+    src: url(unown.ttf);
+}
+@font-face {
+    font-family: let;
+    src: url(Pokemon\ Classic.ttf);
 }
 nav{
     float: left;
     background-color: antiquewhite;
     border: solid;
     width: 20%;
-    min-height:500px;
+    min-height:686px;
     border: 20px solid gray;
+    display: flex;
 }
-#pokedex{
+.pokedex{
     float: left;
     background-color: gray;
     width: 79.6%;
